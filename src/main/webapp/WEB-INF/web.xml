@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletLivres</servlet-name>
+  	<display-name>ServletLivres</display-name>
+  	<description></description>
+  	<servlet-class>Servlet.ServletLivres</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletAuteurs</servlet-name>
+  	<display-name>ServletAuteurs</display-name>
+  	<description></description>
+  	<servlet-class>Servlet.ServletAuteurs</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletAuteur</servlet-name>
+  	<display-name>ServletAuteur</display-name>
+  	<description></description>
+  	<servlet-class>servlet.ServletAuteur</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletLivre</servlet-name>
+  	<display-name>ServletLivre</display-name>
+  	<description></description>
+  	<servlet-class>servlet.ServletLivre</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletLivres</servlet-name>
+  	<url-pattern>/ServletLivres</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletAuteurs</servlet-name>
+  	<url-pattern>/ServletAuteurs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletAuteur</servlet-name>
+  	<url-pattern>/ServletAuteur</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletLivre</servlet-name>
+  	<url-pattern>/ServletLivre</url-pattern>
+  </servlet-mapping>
+</web-app>
